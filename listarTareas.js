@@ -5,10 +5,10 @@ const comando = yargs.argv.comando
 const titulo = yargs.argv.titulo
 const estado = yargs.argv.estado
 
-function lectura(comando) {
-    if(comando==='listar'){
-        return console.log(listaTareas)
-    }
+function lectura() {
+     return console.log(listaTareas)
+       
+    
 }
 function empty(comando) {
     if (comando === undefined) {
