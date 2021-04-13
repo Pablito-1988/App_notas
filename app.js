@@ -7,7 +7,7 @@ const estado=yargs.argv.estado
 const funciones=require('./listarTareas')
  switch(comando){
     case 'listar':
-        return funciones.lectura(comando)
+        return funciones.lectura()
     break;
     case undefined:
         return funciones.empty()
